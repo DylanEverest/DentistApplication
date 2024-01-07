@@ -29,9 +29,7 @@ public class Facture {
                     budget= budget- reparations[j].getPrice() ;
                 }                
                 else{
-                    reparationsOK = l.toArray(new Reparation[l.size()]);
-                    finalBudget = budget;
-                    return ;
+                    break;
                 }
             }            
 
